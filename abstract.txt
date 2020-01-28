@@ -1,0 +1,29 @@
+[source: https://epad.ifgi.de/p/librarians-building-momentum-reproducibility-2020]
+
+Librarians Building Momentum for Reproducibility
+https://vickysteeves.gitlab.io/librarians-reproducibility/cfp/
+
+Primary presenter name *
+Daniel Nüst
+
+Primary presenter place of work *
+University of Münster
+
+Additional presenters / co-authors' names
+
+    ..
+
+
+Session format *
+
+    [x] Full talk
+
+    [ ] Lightning talk
+
+
+Title of session *
+Container images for research librarians 101
+
+Abstract * (Please provide a description of your proposed session. Submission should not exceed 300 words.)
+
+Containerisation is a hot topic for increasing reproducibility of research. A container can capture a complex computing environment in the exact state that was just to run a scientific workflow. Based on containers, infrastructures are build for researchers to improve communication, collaboration, and reproducibility. With the increasing use of containers they are likely to become a topic for research librarians, albeit their background of scalable cloud information technology being distincly incompatible with traditional services and perspectives of libraries. Nevertheless, libraries could provide guidelines for container usage and build infrastructures to leverage the advantages of a containerised workflow, but they might also have to handle container-related artefacts as products of research projects. In this talk, I give an introduction into the basics of containerisation and examine the innards of container image formats (Docker/OCI image, Singularity image) and how these images are created (Dockerfile, build scripts, duality of image and Dockerfile). Further I point to the state of the art in container preservation. Based on my perspective as a research software engineer, I speculate on the potential and the challenges for container archival and preservation, and how in ten years a container image might help the inspection of research published today.

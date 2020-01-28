@@ -2,7 +2,7 @@
 
 Conference: https://vickysteeves.gitlab.io/librarians-reproducibility/
 
-Slides: TBA from OSF meetings project
+Slides: https://doi.org/10.17605/OSF.IO/XTA6D
 
 _This repository contains a toy example of a "scientific workflow" to create a simple container, that can be exported and then investigated as a "historic artefact"._
 
