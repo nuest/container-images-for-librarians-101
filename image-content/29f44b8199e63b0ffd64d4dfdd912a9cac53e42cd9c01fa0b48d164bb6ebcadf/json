@@ -1,0 +1,84 @@
+{
+  "id": "29f44b8199e63b0ffd64d4dfdd912a9cac53e42cd9c01fa0b48d164bb6ebcadf",
+  "parent": "87a7bb06b556c7780e7acb54f72c4580b08cfbd0c2c2cd429cfed1c7be092b1d",
+  "created": "2020-01-28T18:29:38.207805451Z",
+  "container": "3f1837e58cdda13ba39dcada6135f8da777d74fe358993b4e3088d77250caa0b",
+  "container_config": {
+    "Hostname": "3f1837e58cdd",
+    "Domainname": "",
+    "User": "",
+    "AttachStdin": false,
+    "AttachStdout": false,
+    "AttachStderr": false,
+    "Tty": false,
+    "OpenStdin": false,
+    "StdinOnce": false,
+    "Env": [
+      "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+      "BUILD_DATE=2019-07-05",
+      "R_VERSION=3.6.0",
+      "LC_ALL=en_US.UTF-8",
+      "LANG=en_US.UTF-8",
+      "TERM=xterm"
+    ],
+    "Cmd": [
+      "/bin/sh",
+      "-c",
+      "#(nop) ",
+      "CMD [\"/bin/sh\" \"-c\" \"Rscript /my-analysis/workflow.R\"]"
+    ],
+    "Image": "sha256:a3b5b35962ca027409ef188714b22a50da556a7c341c4a5c9162182e138f7121",
+    "Volumes": {
+      "/data": {}
+    },
+    "WorkingDir": "/my-analysis",
+    "Entrypoint": null,
+    "OnBuild": null,
+    "Labels": {
+      "maintainer": "Daniel Nüst \\u003cdaniel.nuest@uni-muenster.de\\u003e",
+      "org.label-schema.license": "GPL-2.0",
+      "org.label-schema.vcs-url": "https://github.com/nuest/container-image-for-librarians-101",
+      "org.label-schema.vendor": "Daniel Nüst"
+    }
+  },
+  "docker_version": "19.03.3",
+  "config": {
+    "Hostname": "",
+    "Domainname": "",
+    "User": "",
+    "AttachStdin": false,
+    "AttachStdout": false,
+    "AttachStderr": false,
+    "Tty": false,
+    "OpenStdin": false,
+    "StdinOnce": false,
+    "Env": [
+      "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+      "BUILD_DATE=2019-07-05",
+      "R_VERSION=3.6.0",
+      "LC_ALL=en_US.UTF-8",
+      "LANG=en_US.UTF-8",
+      "TERM=xterm"
+    ],
+    "Cmd": [
+      "/bin/sh",
+      "-c",
+      "Rscript /my-analysis/workflow.R"
+    ],
+    "Image": "sha256:a3b5b35962ca027409ef188714b22a50da556a7c341c4a5c9162182e138f7121",
+    "Volumes": {
+      "/data": {}
+    },
+    "WorkingDir": "/my-analysis",
+    "Entrypoint": null,
+    "OnBuild": null,
+    "Labels": {
+      "maintainer": "Daniel Nüst \\u003cdaniel.nuest@uni-muenster.de\\u003e",
+      "org.label-schema.license": "GPL-2.0",
+      "org.label-schema.vcs-url": "https://github.com/nuest/container-image-for-librarians-101",
+      "org.label-schema.vendor": "Daniel Nüst"
+    }
+  },
+  "architecture": "amd64",
+  "os": "linux"
+}

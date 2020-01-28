@@ -1,0 +1,15 @@
+[
+    {
+        "Config": "3b699800373f874fa828e4e8001fae7c63cf1b8df90f40435ec4a785e0d3a11c.json",
+        "RepoTags": [
+            "cifl101:latest"
+        ],
+        "Layers": [
+            "26e155e18a6f75d70941b74e25a461e9202672a5cb5ccd0374535eb0b7151891/layer.tar",
+            "b6f0f247fc1c315142888ef23d9dbfcd7da2f0ef1f4ebe4e039bec068ea64c88/layer.tar",
+            "425b37231d02dadeaf076f01185c6a8a747a3700f2b1a810c472f734e3d64302/layer.tar",
+            "87a7bb06b556c7780e7acb54f72c4580b08cfbd0c2c2cd429cfed1c7be092b1d/layer.tar",
+            "29f44b8199e63b0ffd64d4dfdd912a9cac53e42cd9c01fa0b48d164bb6ebcadf/layer.tar"
+        ]
+    }
+]
